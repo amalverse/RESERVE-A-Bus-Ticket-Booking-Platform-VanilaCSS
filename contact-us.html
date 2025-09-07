@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact-Us- RESERVE</title>
+    <link rel="stylesheet" href="contact-us.css" />
+    <!-- <link rel="stylesheet" href="style2.css"> -->
+  </head>
+
+  <body>
+    <header>
+      <!-- Logo -->
+      <a href="/index.html">
+        <div id="head-title">
+          <img src="./assets/bus.png" alt="bus" id="logo" />
+          <div id="title-name">RESERVE</div>
+        </div>
+      </a>
+      <!-- Navbar -->
+      <nav>
+        <div id="hide-display">
+          <a href="" class="nav-elements disabled" onclick="return false;">Tickets</a>
+          <a href="/bus-routes.html" class="nav-elements">Bus Routes</a>
+          <a href="/contact-us.html" class="nav-elements active">Contact Us</a>
+        </div>
+        <div id="nav-end">
+          <a href="" id="login">Login</a>
+          <a href="" class="nav-elements">Register</a>
+        </div>
+      </nav>
+    </header>
+    <main id="contact-us">
+      <form action="#" method="post" id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" required /><br /><br />
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <input type="radio" id="pnts" name="gender" value="pnts" />
+        <label for="pnts">Prefer not to say</label>
+        <br /><br />
+
+        <label for="message">Message:</label><br /><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          cols="50"
+          required
+        ></textarea
+        ><br /><br />
+
+        <label for="image">Upload Image:</label>
+        <input type="file" id="image" name="image" /><br /><br />
+
+        <label for="newsletter">Subscribe to Newsletter:</label>
+        <input type="checkbox" id="newsletter" name="newsletter" /><br /><br />
+
+        <input type="submit" value="Submit" id="button-submit" />
+      </form>
+    </main>
+    <footer>
+      <p>&copy; 2025 AlmaBetter. All rights reserved</p>
+      <div class="social-media">
+        <a href="https://www.facebook.com"
+          ><img src="./assets/facebook.png" alt="Facebook" class="social-icon"
+        /></a>
+        <a href="https://www.twitter.com"
+          ><img src="./assets/twitter.png" alt="Twitter" class="social-icon"
+        /></a>
+        <a href="https://www.instagram.com"
+          ><img
+            src="./assets/instagram.png"
+            alt="Instagram"
+            class="social-icon"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
